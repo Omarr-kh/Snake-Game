@@ -1,6 +1,7 @@
 import turtle
 import random
 
+
 class Food(turtle.Turtle):
     def __init__(self):
         super().__init__()
@@ -9,7 +10,6 @@ class Food(turtle.Turtle):
         self.shape("circle")
         self.penup()
         self.create_food()
-
 
     def create_food(self):
         x_pos = random.randint(-280, 280)
