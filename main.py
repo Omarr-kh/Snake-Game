@@ -1,5 +1,6 @@
 from snake import Snake
 from turtle import Screen
+from scoreboard import Score
 import time
 from food import Food
 
@@ -12,6 +13,7 @@ screen.title("Snake")
 
 snake = Snake()
 food = Food()
+score = Score()
 
 # Creating event listeners for snake movements
 screen.listen()
@@ -25,3 +27,7 @@ while True:
     screen.update()
     time.sleep(0.1)
     snake.move()
+
+    if snake.head.distance(food) < 15:
+        score.update_score()
+        food.create_food()
