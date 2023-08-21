@@ -1,14 +1,14 @@
 Snake Game
 # Table of Contents
 
-Description
-[Features] (#Features)
-Requirements
-Installation
-Usage
-Game Controls
-Contributing
-License
+Description  
+[Features](#Features)  
+Requirements  
+Installation  
+Usage  
+Game Controls  
+Contributing  
+License  
 
 ## Description
 
@@ -16,10 +16,10 @@ This is a classic Snake game implemented in Python using the Turtle graphics lib
 
 ## Features
 
-Classic Snake gameplay with a user-friendly graphical interface.\n
-Object-Oriented Programming (OOP) structure for clean and organized code.\n
-Snake grows longer each time it eats food.\n
-Score tracking to keep track of your high score.\n
+Classic Snake gameplay with a user-friendly graphical interface.  
+Object-Oriented Programming (OOP) structure for clean and organized code.  
+Snake grows longer each time it eats food.  
+Score tracking to keep track of your high score.  
 
 ## Requirements
 
