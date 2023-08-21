@@ -6,7 +6,7 @@
 [Requirements](#Requirements)  
 [Installation](#Installation)  
 [Usage](#Usage)  
-[Game Controls](#Game Controls)  
+[Game Controls](#Game-Controls)  
 
 ## Description
 
