@@ -32,13 +32,15 @@ while GAME_ON:
 
     for segment in snake.body_segments[1:]:
         if snake.head.distance(segment) < 10:
-            GAME_ON = False
+            # GAME_ON = False
             score.game_over()
+            snake.destroy_snake()
 
     # check for collisions with the walls
     if snake.head.xcor() < -295 or snake.head.xcor() > 280 or snake.head.ycor() < -280 or snake.head.ycor() > 295:
-        GAME_ON = False
+        # GAME_ON = False
         score.game_over()
+        snake.destroy_snake()
 
     if snake.head.distance(food) < 15:
         snake.add_segment()

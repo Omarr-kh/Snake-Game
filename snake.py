@@ -33,6 +33,13 @@ class Snake:
         new_segment.goto(x_pos, y_pos)
         self.body_segments.append(new_segment)
 
+    def destroy_snake(self):
+        for segment in self.body_segments:
+            segment.goto(1000, 1000)
+        self.body_segments.clear()
+        self.create_snake()
+        self.head = self.body_segments[0]
+
     def move(self):
         for i in range(len(self.body_segments) - 1, 0, -1):
             prev_x = self.body_segments[i - 1].xcor()
